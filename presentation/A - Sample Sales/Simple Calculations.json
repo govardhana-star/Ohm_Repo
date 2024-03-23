@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "Simple Calculations",
+    "presentationColumns" : [ {
+      "name" : "121  Period Ago Rev",
+      "sourceLogicalColumn" : "logicalColumn:01 - Sample App.F5 Time Series and Level Based Examples.121  Period Ago Rev"
+    }, {
+      "name" : "221 Fiscal Year Ago Rev",
+      "sourceLogicalColumn" : "logicalColumn:01 - Sample App.F5 Time Series and Level Based Examples.221 Fiscal Year Ago Rev"
+    }, {
+      "name" : "1003 - Cost Ratio_Logical",
+      "sourceLogicalColumn" : "logicalColumn:01 - Sample App.F6 Logical Calculations Examples.1003 - Cost Ratio_Logical"
+    }, {
+      "name" : "1001 - FunPod Revenue_Case_Logical",
+      "sourceLogicalColumn" : "logicalColumn:01 - Sample App.F0 Sales Base Measures.1001 - FunPod Revenue_Case_LTS"
+    } ]
+  }
+}

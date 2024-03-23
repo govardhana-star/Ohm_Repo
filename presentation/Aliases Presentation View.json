@@ -1,0 +1,21 @@
+{
+  "subjectArea" : {
+    "name" : "Aliases Presentation View",
+    "sourceBusinessModel" : "businessModel:Aliases Model",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Aliases Presentation View.Fact  sales f"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Dim order dates"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Dim bill dates"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Order Details"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Invoices Metrics"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Order Metrics"
+    }, {
+      "name" : "presentationTable:Aliases Presentation View.Time"
+    } ]
+  }
+}
