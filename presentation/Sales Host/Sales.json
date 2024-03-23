@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Sales",
+    "presentationColumns" : [ {
+      "name" : "Prodid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Prodid"
+    }, {
+      "name" : "Custid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Custid"
+    }, {
+      "name" : "Timeid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Timeid"
+    }, {
+      "name" : "Channelid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Channelid"
+    }, {
+      "name" : "Promoid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Promoid"
+    }, {
+      "name" : "Quantitysold",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Quantitysold"
+    }, {
+      "name" : "Amountsold",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Sales.Amountsold"
+    } ]
+  }
+}

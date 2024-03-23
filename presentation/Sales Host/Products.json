@@ -1,0 +1,72 @@
+{
+  "presentationTable" : {
+    "name" : "Products",
+    "presentationColumns" : [ {
+      "name" : "Prodid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodid"
+    }, {
+      "name" : "Prodname",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodname"
+    }, {
+      "name" : "Proddesc",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Proddesc"
+    }, {
+      "name" : "Prodsubcategory",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodsubcategory"
+    }, {
+      "name" : "Prodsubcategoryid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodsubcategoryid"
+    }, {
+      "name" : "Prodsubcategorydesc",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodsubcategorydesc"
+    }, {
+      "name" : "Prodcategory",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodcategory"
+    }, {
+      "name" : "Prodcategoryid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodcategoryid"
+    }, {
+      "name" : "Prodcategorydesc",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodcategorydesc"
+    }, {
+      "name" : "Prodweightclass",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodweightclass"
+    }, {
+      "name" : "Produnitofmeasure",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Produnitofmeasure"
+    }, {
+      "name" : "Prodpacksize",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodpacksize"
+    }, {
+      "name" : "Supplierid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Supplierid"
+    }, {
+      "name" : "Prodstatus",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodstatus"
+    }, {
+      "name" : "Prodlistprice",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodlistprice"
+    }, {
+      "name" : "Prodminprice",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodminprice"
+    }, {
+      "name" : "Prodtotal",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodtotal"
+    }, {
+      "name" : "Prodtotalid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodtotalid"
+    }, {
+      "name" : "Prodsrcid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodsrcid"
+    }, {
+      "name" : "Prodefffrom",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodefffrom"
+    }, {
+      "name" : "Prodeffto",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodeffto"
+    }, {
+      "name" : "Prodvalid",
+      "sourceLogicalColumn" : "logicalColumn:BMM.Products.Prodvalid"
+    } ]
+  }
+}

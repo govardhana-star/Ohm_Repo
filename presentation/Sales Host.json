@@ -1,0 +1,11 @@
+{
+  "subjectArea" : {
+    "name" : "Sales Host",
+    "sourceBusinessModel" : "businessModel:BMM",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sales Host.Products"
+    }, {
+      "name" : "presentationTable:Sales Host.Sales"
+    } ]
+  }
+}

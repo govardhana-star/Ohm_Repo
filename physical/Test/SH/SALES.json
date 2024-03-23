@@ -1,0 +1,68 @@
+{
+  "physicalTable" : {
+    "name" : "SALES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROD_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TIME_ID",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROMO_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "QUANTITY_SOLD",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AMOUNT_SOLD",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:Test.SH.CHANNELS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test.SH.SALES.CHANNEL_ID",
+        "rightColumn" : "physicalColumn:Test.SH.CHANNELS.CHANNEL_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:Test.SH.CUSTOMERS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test.SH.SALES.CUST_ID",
+        "rightColumn" : "physicalColumn:Test.SH.CUSTOMERS.CUST_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:Test.SH.PRODUCTS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Test.SH.SALES.PROD_ID",
+        "rightColumn" : "physicalColumn:Test.SH.PRODUCTS.PROD_ID"
+      } ]
+    } ]
+  }
+}
